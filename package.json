@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ./",
+    "start": "npm run build && node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/config": "0.0.34",
+    "@types/loglevel": "^1.5.4",
+    "@types/node": "^11.9.4",
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "config": "^3.0.1",
+    "js-yaml": "^3.12.1",
+    "loglevel": "^1.6.1",
+    "loglevel-plugin-prefix": "^0.8.4",
+    "moment": "^2.24.0"
+  }
+}

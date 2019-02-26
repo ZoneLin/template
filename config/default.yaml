@@ -1,0 +1,13 @@
+# Time using https://www.npmjs.com/package/moment package
+# tome zone setting refer to moment local setting
+timezone: zh-tw
+log:
+  # Using https://www.npmjs.com/package/loglevel package
+  # level not case sensitive
+  # accept level: trace, debug, info, information, warn, warning, error, silent
+  level: info
+  # %l level of message
+  # %n name of logger
+	# %t - timestamp of message
+  # base message will append to back
+  format: "[%t] %l "
